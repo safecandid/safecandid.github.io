@@ -1,1 +1,0 @@
-# safecandid.com
