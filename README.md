@@ -1,1 +1,1 @@
-# safecandid.github.io
+# safecandid.com
