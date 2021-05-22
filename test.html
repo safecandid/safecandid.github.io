@@ -2,6 +2,13 @@
 <html>
 <head>
  <meta name="viewport" content="width=device-width , initial-scale=1.0">
+ <style>
+   button {
+     border: 2px solid green;
+     border-radius: 3px;
+     
+   }
+ </style>
  <script>
    function mon() {
       document.getElementById("main").style.display = "none";
@@ -36,13 +43,13 @@
 <body>
   <div id="main" style="display: block;">
   <h1>Select Day:</h1>
-  <button onclick="mon()">Monday</button>
-  <button onclick="tue()">Tuesday</button>
-  <button onclick="wed()">Wednesday</button>
-  <button onclick="thu()">Thursday</button>
-  <button onclick="fri()">Friday</button>
-  <button onclick="sat()">Saturday</button>
-  <button onclick="sun()">Sunday</button>
+  <button onclick="mon()">Monday</button><br>
+  <button onclick="tue()">Tuesday</button><br>
+  <button onclick="wed()">Wednesday</button><br>
+  <button onclick="thu()">Thursday</button><br>
+  <button onclick="fri()">Friday</button><br>
+  <button onclick="sat()">Saturday</button><br>
+  <button onclick="sun()">Sunday</button><br>
   </div>
   <div id="mon" style="display: none;"></div>
   <div id="tue" style="display: none;"></div>
