@@ -2,18 +2,22 @@
 <html>
 <head>
  <meta name="viewport" content="width=device-width , initial-scale=1.0">
+ <script>
+   function mon() {
+      document.getElementById("main").style.display = none ;
+    }
+ </script>
 </head>
 <body>
+  <div id="main">
   <h1>Select Day:</h1>
-  <button onclick="">Monday</button>
+  <button onclick="mon()">Monday</button>
   <button>Tuesday</button>
   <button>Wednesday</button>
   <button>Thursday</button>
   <button>Friday</button>
   <button>Saturday</button>
   <button>Sunday</button>
-  <div id="mon" style="display: hidden;">
-    <h1>Hello</h1>
   </div>
 </body>
 </html>
